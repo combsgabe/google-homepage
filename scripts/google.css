@@ -1,0 +1,52 @@
+#goog{
+	width: 269px;
+	margin: 200px auto 0px auto;
+	display: block;
+}
+
+.form  {
+	border: 1px solid gray;
+	height: 27px;
+	width: 550px;
+	margin: 0px auto;
+	padding: 1px 5px;
+}
+.search  {	
+	border: 0px;
+	padding-left: 4px;
+	padding-top: 2px;
+	width: 495px;
+	outline: 0;
+	font-size: 16px;
+	font-weight: 900;
+}
+
+.form:focus {
+	border: 1px solid blue;
+}
+
+#d  {
+	float: right;
+	padding: 3px 4px 0px;
+	opacity: .5;
+}
+
+.buttons{
+	height:30px;
+	width:240px;
+	margin: 10px auto 0px auto;
+}
+
+#first{
+	float:left;
+	opacity:.75;
+}
+
+#second{
+	float:right;
+	opacity:.75;
+}
+
+#d:hover, #first:hover, #second:hover{
+	opacity:1;
+}
